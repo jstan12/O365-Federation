@@ -6,7 +6,7 @@ $uri = ""
 $url = ""
 # Duo Single Log-Out URL
 $logoutUrl = ""
-# Add certificate path from downloaded from Duo
+# Add certificate path downloaded from Duo
 $cert=New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Office 365.crt")
 $certData = [system.convert]::tobase64string($cert.rawdata)
 
